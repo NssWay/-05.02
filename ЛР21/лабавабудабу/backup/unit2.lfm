@@ -1,0 +1,8 @@
+object fEdit: TfEdit
+  Left = 256
+  Height = 240
+  Top = 114
+  Width = 320
+  Caption = 'fEdit'
+  LCLVersion = '3.2.0.0'
+end

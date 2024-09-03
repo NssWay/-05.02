@@ -1,0 +1,10 @@
+object fEdit: TfEdit
+  Left = 256
+  Height = 225
+  Top = 114
+  Width = 400
+  BorderStyle = bsDialog
+  Caption = 'Редактор контакта'
+  Position = poMainFormCenter
+  LCLVersion = '3.2.0.0'
+end

@@ -1,0 +1,99 @@
+object Form1: TForm1
+  Left = 125
+  Height = 442
+  Top = 175
+  Width = 728
+  Caption = 'Значение функции'
+  ClientHeight = 442
+  ClientWidth = 728
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Button1: TButton
+    Left = 410
+    Height = 42
+    Top = 120
+    Width = 181
+    Caption = 'Вычислить'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 150
+    Height = 28
+    Top = 100
+    Width = 201
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 150
+    Height = 28
+    Top = 135
+    Width = 201
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 120
+    Height = 32
+    Top = 100
+    Width = 28
+    Caption = 'a='
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -24
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 120
+    Height = 32
+    Top = 135
+    Width = 30
+    Caption = 'b='
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -24
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Button2: TButton
+    Left = 410
+    Height = 42
+    Top = 175
+    Width = 180
+    Caption = 'Очистить'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Label4: TLabel
+    Left = 121
+    Height = 28
+    Top = 216
+    Width = 21
+    Caption = 'f='
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit4: TEdit
+    Left = 150
+    Height = 28
+    Top = 216
+    Width = 201
+    TabOrder = 4
+  end
+  object BitBtn1: TBitBtn
+    Left = 591
+    Height = 38
+    Top = 381
+    Width = 94
+    Caption = 'Выход'
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    TabOrder = 5
+  end
+end
